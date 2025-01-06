@@ -1,0 +1,41 @@
+.container .hero-btn-shortcut{
+    margin-top: 30px;
+}
+.container .hero-btn-shortcut button{
+    margin-left: 20px;
+}
+.hero-btn-shortcut button {
+    transition: all 0.3s ease;
+  }
+  
+  .hero-btn-shortcut button:hover {
+    background-color: #17a2b8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+  

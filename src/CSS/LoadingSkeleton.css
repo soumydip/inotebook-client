@@ -1,0 +1,32 @@
+/* Container for Skeleton Boxes */
+.skeleton-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual Skeleton Box */
+.skeleton-box {
+  width: 100%;
+  height: 50vw;
+  background: linear-gradient(
+    -90deg,
+    #e0e0e0 0%,
+    #f0f0f0 50%,
+    #e0e0e0 100%
+  ); /* Hologram effect */
+  background-size: 400% 400%;
+  border-radius: 8px; /* Rounded corners */
+  animation: shimmer 1.5s infinite; /* Animation for effect */
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

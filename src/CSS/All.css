@@ -1,0 +1,249 @@
+:root {
+    /* Primary Colors */
+    --background-color: #6425e3;
+    /* Violet background */
+    --text-color: white;
+    /* White text */
+    --hover-text-color: #d1d1ff;
+    /* Light blue text on hover */
+    --button-background-color: #303098;
+    /* Blue button background */
+    --button-hover-color: #087E8B;
+    /* Cyan button hover color */
+    --link-hover-color: #d1d1ff;
+    /* Light blue for link hover */
+    --footer-background-color: #0b3954;
+    /* Dark blue for footer */
+
+    /* Additional Colors */
+    --input-border-color: #303098;
+    /* Blue border for inputs */
+    --card-background-color: #f4f7fc;
+    /* Light background for cards */
+    --sidebar-background-color: #0b3954;
+    /* Dark blue sidebar */
+    --border-radius: 8px;
+    /* Rounded corners for elements */
+    --border-radius-circle: 50%;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Soft box shadow */
+
+
+    /* Hover Effects */
+    --button-text-color: #ffffff;
+    /* White text color on buttons */
+    --input-focus-border-color: #6425e3;
+    /* Violet border on input focus */
+    --list-item-hover-bg-color: #303098;
+    /* Blue background for list items on hover */
+
+    /* Card & Image Styles */
+    --image-border-radius: 10px;
+    /* Border radius for images */
+    --image-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    /* Image shadow */
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.activeLink {
+    font-weight: bold;
+    color: black !important;
+    background-color: rgb(242, 242, 23) !important;
+    border-radius: var(--border-radius);
+
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Navbar adjustments */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    margin-right: 20px;
+    color: var(--text-color);
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarmain {
+    background-color: var(--background-color);
+    padding: 10px;
+
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Offcanvas adjustments */
+.offcanvas {
+    background-color: var(--sidebar-background-color);
+    color: white;
+    border: 2px solid #343a40;
+}
+
+.offcanvas .list-group-item {
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.offcanvas .list-group-item:hover {
+    background-color: var(--list-item-hover-bg-color);
+    color: var(--text-color);
+    border-left: 4px solid var(--button-background-color);
+    cursor: pointer;
+}
+.nav-item .btn {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.nav-item .btn i {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+
+.offcanvas .btn-close {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+/* Active link */
+.activeLink {
+    background-color: #F9F7F3;
+}
+
+
+/* Button Styling */
+.btn-primary {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+/* spacil button */
+.hero-shortcut-addtianal-btn {
+    border-radius: var(--border-radius);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #087E8B;
+    height: 80px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-shortcut-addtianal-btn Link p {
+    font-size: 15px;
+}
+
+.hero-shortcut-addtianal-btn i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.rowSpacile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Adjust this based on how many items you want per row */
+    place-items: center;
+    gap: 10px;
+}
+
+
+
+/* Input Focus Effect */
+input:focus {
+    border: 2px solid var(--input-focus-border-color);
+}
+
+/* Hover Effect for Links */
+a:hover {
+    color: var(--link-hover-color);
+}
+
+
+
+/* mainConent style */
+.mainContent {
+    margin-top: 100px;
+    /* Space below the navbar */
+}
+
+.mainPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Footer Background with Gradient */
+.footer-bg {
+    background: linear-gradient(135deg, #0b0b3b, #4c1d95, #0d6efd);
+    color: #fff;
+}
+
+/* Footer Titles */
+.footer-title {
+    color: #f8f9fa;
+    border-bottom: 2px solid #6f42c1;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Footer Links */
+.footer-link {
+    color: #d1d1e0;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #f8f9fa;
+}
+
+/* Social Media Icons */
+.footer-icon {
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+.footer-icon:hover {
+    transform: scale(1.2);
+    color: #6f42c1;
+}
+
+/* Footer Divider */
+hr {
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
