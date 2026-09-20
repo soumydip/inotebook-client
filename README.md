@@ -2,6 +2,7 @@
 
 Welcome to the **iNotebook** frontend! This is a web-based Note Management Application built with **React.js**. It interacts with the backend API (built with Node.js, Express.js, and MongoDB) to provide users with a seamless experience for managing their notes.
 
+_currently the backend will rebuild Go Language. [see codebase](https://github.com/soumydip/note-application)_
 ## Features:
 - **Restore**: Users can restore their deleted notes if needed.
 - **Permanent Delete**: Users can permanently delete notes they no longer want.
@@ -19,17 +20,6 @@ Welcome to the **iNotebook** frontend! This is a web-based Note Management Appli
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Token)
 - **State Management**: React Context API
-
-## Live Demo:
-You can check out the live demo of the app here: 
-[Live Demo Link](your-live-demo-link.com)
-
-## GitHub Repositories:
-- **Backend Repository**: [iNotebook Backend GitHub](https://github.com/your-username/iNotebook-backend)
-- **Frontend Repository**: [iNotebook Frontend GitHub](https://github.com/your-username/iNotebook-frontend)
-
-## LinkedIn Demo:
-Check out the demo video on LinkedIn: [LinkedIn Demo Link](https://www.linkedin.com/in/your-profile-link)
 
 ## Setup Instructions:
 1. **Clone the repository**: Clone the frontend repository to your local machine:
